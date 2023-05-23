@@ -1,0 +1,15 @@
+*{
+    outline: 1px red solid;
+    padding: 1em 1em 1em 1em;
+}
+
+
+
+header{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    border-radius: 1em 1em 1em 1em;
+    grid-column-start: 1;
+    grid-column-end: auto;
+}
