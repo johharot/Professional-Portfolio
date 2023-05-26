@@ -15,19 +15,25 @@
 
 .header{
     display: grid;
-    /* grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
-    grid-template-columns: auto auto;
-    text-align: center;
-    text-shadow: 10px;
-    justify-content: center ;
+    gap: 40px;
+    grid-area:
+    'header header sidebar'
+    'header header sidebar'
+    '. . sidebar';
 
 }
 
 .hd-1{
-    grid-area: hd-1;
-    display: grid;
-    text-align: center;
-    justify-content: ;
+    grid-template: header;
+    text-align: left;
 
+}
+
+.hd-2{
+    grid-template: header;
+    text-align: center;
+}
+
+.links{
+    grid-template: sidebar;
 }
