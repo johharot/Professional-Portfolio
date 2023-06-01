@@ -62,7 +62,6 @@ hr {
 }
 
 .main-1 {
-  background-color: red;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -72,7 +71,7 @@ hr {
 }
 
 .photo {
-  opacity: 60%;
+  opacity: ;
 }
 
 .Projects {
@@ -161,32 +160,13 @@ hr {
   list-style: none;
 }
 
-/* .rights-text{
-    text-align: center;
-    top: 100px;
-    color: aqua;
-}
-.footer{
-    display: flex;
-    position: relative;
-    margin: 100px 175px 100px 175px;
-    padding: 20px 152px;
-    top: 450px;
-    opacity:40% ;
-    justify-content: space-evenly;
-    background-color: black;
-    align-items: center;
-    color: white;
-} */
-
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 30% 50% 20%;
   margin-top: 500px;
-  background-color: black;
+  background-color: rgb(59, 58, 58);
   padding: 20px 152px;
-  border-style: inset;
   border-radius: 50px;
 }
 .rights-text {
@@ -200,15 +180,15 @@ hr {
 }
 
 .feedback {
-    grid-row-start: 2;
-    grid-column-start: 3;
-    font-size: xx-small;
-    color: rgb(117, 114, 114);
-    text-align: center;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  font-size: xx-small;
+  color: rgb(117, 114, 114);
+  text-align: center;
 }
 
 .feedback-text {
-    margin: -24px 9px 0px -131px;
+  margin: -24px 9px 0px -131px;
 }
 
 .contact {
