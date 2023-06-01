@@ -10,123 +10,127 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <h1 class="hd-1">Hi, I'm Haroon John</h1>
-            <h1 class="hd-2">A Professional Web-Designer</h1>
+    <header class="header">
+        <h1 class="hd-1">Hi, I'm <span class="black">Haroon John</span> </h1>
+        <h1 class="hd-2">A Passionate <span id="element"></span></h1>
 
-            <div class="links">
-                <!-- <a href="#about-me">About Me</a> -->
-                <a href="https://github.com/johharot">Github</a>
-                <a href="https://www.linkedin.com/in/haroonjohn/">Linkedln</a>
-                <a href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web-Designer', 'Graphic Designer', 'IT Analyst'],
+                typeSpeed: 90,
+            });
+        </script>
+
+        <div class="links">
+            <ul>
+                <li><a href="https://github.com/johharot">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/haroonjohn/">Linkedln</a></li>
+                <li><a href="https://mail.google.com/mail/u/0/#inbox">Email</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <hr>
+    <div class="main-1">
+        <div class="about-me">
+            <h1>About Me</h1>
+            <div class="brief">
+                <p>As a Technology Enthusiast, I’ve always wanted to be a part of this ever changing Technical
+                    World. I found myself interested
+                    in IT when I got my first computer. I love working with people and a big believer of
+                    teamwork collaboration. And passionate
+                    about learning new skills to get the best out of my abilities. What really excites about
+                    technology is that it is everchanging
+                    and is evolving at an unbelievable pace. I’m excited to be in IT Field in making this world
+                    a better place to live. Through my
+                    new experience as a Java-full stack developer, I'm confident that I can bring more positive
+                    developments to this Techno world.</p>
             </div>
-        </header>
-
-
-
-        <div class="main-1">
-            <section id="section-m1">
-                <div class="about-me">
-                    <h1>About Me</h1>
-                    <div class="brief">
-                        <p>As a Technology Enthusiast, I’ve always wanted to be a part of this ever changing Technical
-                            World. I found myself interested
-                            in IT when I got my first computer. I love working with people and a big believer of
-                            teamwork collaboration. And passionate
-                            about learning new skills to get the best out of my abilities. What really excites about
-                            technology is that it is everchanging
-                            and is evolving at an unbelievable pace. I’m excited to be in IT Field in making this world
-                            a better place to live. Through my
-                            new experience as a Java-full stack developer, I'm confident that I can bring more positive
-                            developments to this Techno world.</p>
-                    </div>
-
-                    <div class="photo">
-                        <img src="/images/pro.jpg" alt="Professional Photo" width="300px" height="300px">
-                    </div>
-
-                    <div class="skills">
-                        <h1>Skills</h1>
-                        <ul>
-                            <li>Java, JS and CSS</li>
-                            <li>Email Management and Setup</li>
-                            <li>Online Information Management Skills</li>
-                            <li>Online Collaboration</li>
-                            <li>Desktop Publishing</li>
-                            <li>Photo Editing</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
         </div>
 
+        <div class="photo">
+            <img src="/images/pro.jpg" alt="Professional Photo" width="300px" height="300px">
+        </div>
+
+        <div class="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>Java, JS and CSS</li>
+                <li>Email Management and Setup</li>
+                <li>Online Information Management Skills</li>
+                <li>Online Collaboration</li>
+                <li>Desktop Publishing</li>
+                <li>Photo Editing</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="project">
+        <h1 class="Projects">Projects</h1>
         <div class="main-2">
             <Section id="section-m2">
-                <div class="project">
-                    <h1 class="Projects">Projects</h1>
 
-                    <article class="pro-por">
-                        <a href="https://github.com/johharot/Professional-Portfolio.git"> Professional Portfolio
-                            <img src="" alt="Professional Portfolio" width="200px" height="200px"></a>
-                        <details>
-                            <summary class="skills-demonstated">Skills Demonstrated:</summary>
-                            <!-- <p class="skills-demonstated">Skills Demonstrated:</p> -->
-                            <ul>
-                                <li>Use of HTML to Structure the web page </li>
-                                <li>Implementation of CSS to style and layout web page</li>
-                                <li>Clean code for easy navigation</li>
-                                </ol>
-                        </details>
-                    </article>
 
-                    <article class="travel-guide">
-                        <a href="https://github.com/johharot/class-practice.Flexbox.git">Travel Guide
-                            <img src="/images/b5.jpg" alt="Travel Guide" width="200px" height="200px"></a>
-                        <details>
-                            <summary class="skills-demonstated-1">Skills Demonstrated:</summary>
-                            <!-- <p class="skills-demonstated-1">Skills Demonstrated:</p>  -->
-                            <ul>
-                                <li>Structuring the page by using HTML</li>
-                                <li>Styling the page by using Flex-box method</li>
-                                <li>Clean code for easy navigation</li>
-                            </ul>
-                        </details>
-                    </article>
+                <article class="pro-por">
+                    <a href="https://github.com/johharot/Professional-Portfolio.git"> Professional Portfolio
+                        <img src="" alt="Professional Portfolio" width="200px" height="200px"></a>
+                    <details>
+                        <summary class="skills-demonstated">Skills Demonstrated:</summary>
+                        <ul>
+                            <li>Use of HTML to Structure the web page </li>
+                            <li>Implementation of CSS to style and layout web page</li>
+                            <li>Clean code for easy navigation</li>
+                            </ol>
+                    </details>
+                </article>
 
-                    <article class="hoa-meeting">
-                        <a href="https://github.com/johharot/HOA-meeting.git">HOA Meeting
-                            <img src="/images/hoa-meeting.jpg" alt="HOA meeting" width="200px" height="200px"></a>
-                        <details>
-                            <summary class="skills-demonstrated-2">Skills Demonstrated:</summary>
-                            <!-- <p class="skills-demonstrated-2">Skills Demonstrated:</p> -->
-                            <ul>
-                                <li>Using HTML to Structure the page</li>
-                                <li>Implementing various styling elements in CSS to layout the page </li>
-                                <li>Clean code for easy navigation</li>
-                            </ul>
-                        </details>
-                    </article>
-                </div>
-            </Section>
+                <article class="travel-guide">
+                    <a href="https://github.com/johharot/class-practice.Flexbox.git">Travel Guide
+                        <img src="/images/b5.jpg" alt="Travel Guide" width="200px" height="200px"></a>
+                    <details>
+                        <summary class="skills-demonstated-1">Skills Demonstrated:</summary>
+                        <ul>
+                            <li>Structuring the page by using HTML</li>
+                            <li>Styling the page by using Flex-box method</li>
+                            <li>Clean code for easy navigation</li>
+                        </ul>
+                    </details>
+                </article>
+
+                <article class="hoa-meeting">
+                    <a href="https://github.com/johharot/HOA-meeting.git">HOA Meeting
+                        <img src="/images/hoa-meeting.jpg" alt="HOA meeting" width="200px" height="200px"></a>
+                    <details>
+                        <summary class="skills-demonstrated-2">Skills Demonstrated:</summary>
+                        <ul>
+                            <li>Using HTML to Structure the page</li>
+                            <li>Implementing various styling elements in CSS to layout the page </li>
+                            <li>Clean code for easy navigation</li>
+                        </ul>
+                    </details>
+                </article>
+        </div>
+        </Section>
+    </div>
+
+    <footer class="footer">
+        <div class="contact-information">
+            <p>Contact Me</p>
+            <p>Philadelphia, PA</p>
+            <p>123,123,123</p>
         </div>
 
-        <footer class="footer">
-            <div class="contact-information">
-                <p>Contact Me</p>
-                <p>Philadelphia, PA</p>
-                <p>123,123,123</p>
-            </div>
+        <div class="feedback">
+            <p>Feedback <input type="text" maxlength="20"> <input class="submit" type="button" value="Submit"></p>
+        </div>
 
-            <div class="feedback">
-                <p>Feedback <input type="text" maxlength="20"> <input class="submit" type="button" value="Submit"></p>
-            </div>
-
-            <div class="copyright">&and; haroonjohn Limited</div>
-        </footer>
+        <div class="copyright">&and;; haroonjohn Limited </div>
+    </footer>
     </div>
 
     </section>
