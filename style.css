@@ -158,4 +158,70 @@ hr {
   color: grey;
   width: 150px;
   font-size: 12px;
+  list-style: none;
+}
+
+/* .rights-text{
+    text-align: center;
+    top: 100px;
+    color: aqua;
+}
+.footer{
+    display: flex;
+    position: relative;
+    margin: 100px 175px 100px 175px;
+    padding: 20px 152px;
+    top: 450px;
+    opacity:40% ;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    color: white;
+} */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30% 50% 20%;
+  margin-top: 500px;
+  background-color: black;
+  padding: 20px 152px;
+  border-style: inset;
+  border-radius: 50px;
+}
+.rights-text {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin: 16px;
+  padding: 1px 1px 1px 1px;
+  font-size: x-small;
+  text-align: center;
+  color: rgb(216, 75, 75);
+}
+
+.feedback {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    font-size: xx-small;
+    color: rgb(117, 114, 114);
+    text-align: center;
+}
+
+.feedback-text {
+    margin: -24px 9px 0px -131px;
+}
+
+.contact {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  text-align: left;
+}
+
+footer .contact .btn {
+  border: 2px;
+  color: white;
+  background-color: rgb(129, 129, 129);
+  border-radius: 6px;
 }
