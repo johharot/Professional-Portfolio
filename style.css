@@ -75,13 +75,69 @@ hr {
   opacity: 60%;
 }
 
-.project {
+.Projects {
   margin: 40px;
   text-align: center;
 }
-.main-2 {
+
+.box {
+  display: flex;
   background: white;
   width: 80vw;
   height: 2px;
   margin: 30px 0px 0px 110px;
+}
+
+.vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0px 100px;
+}
+
+.img-1 {
+  width: 43px;
+  height: 43px;
+  top: -24px;
+  left: -10px;
+  position: relative;
+  font-size: small;
+  text-align: center;
+  text-decoration: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+.vertical-title1 {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    width: 150px;
+    left: -140px;
+}
+
+.vertical-p1 {
+    position: relative;
+    top: 169px;
+    left: -295px;
+    color: grey;
+    width: 150px;
+    font-size: 12px;
+}
+
+.vertical-title2 {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    width: 150px;
+    left: -140px;
+}
+
+.vertical-p2 {
+    position: relative;
+    top: 169px;
+    left: -295px;
+    color: grey;
+    width: 150px;
+    font-size: 12px;
 }
