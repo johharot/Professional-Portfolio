@@ -70,6 +70,10 @@ hr {
 .about img {
   height: auto;
   width: 430px;
+  border-radius: 290px;
+  opacity: 80%;
+  border-style: unset ;
+  box-shadow: 03px 03px 03px 03px;
 }
 
 .brief{
